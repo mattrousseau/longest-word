@@ -13,6 +13,7 @@ class Game():
     def is_valid(self, word):
         if not word:
             return False
+
         grid_copy = self.grid.copy()
         word_letters = list(word)
         for word_letter in word_letters:
