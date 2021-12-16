@@ -4,9 +4,9 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-gunicorn
-flask
-requests
+gunicorn = "*"
+flask = "*"
+requests = "*"
 
 [dev-packages]
 
