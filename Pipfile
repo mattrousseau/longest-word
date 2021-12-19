@@ -10,7 +10,7 @@ requests = "*"
 
 [dev-packages]
 pylint = "*"
-nose = "*
+nose = "*"
 
 [requires]
 python_version = "3.8"
