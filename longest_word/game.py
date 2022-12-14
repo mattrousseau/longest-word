@@ -15,7 +15,7 @@ class Game():
             return False
         letters = self.grid.copy()
         for letter in word:
-            if letter not in letters:
+            if letter in letters:
                 letters.remove(letter)
             else:
                 return False
